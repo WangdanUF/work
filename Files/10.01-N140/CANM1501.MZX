@@ -1,0 +1,248 @@
+*EXP.DETAILS: CANM1501MZ Inner Mongolia-2015
+
+*GENERAL
+@PEOPLE
+ Dan Wang, Yan Mo
+ 
+@ADDRESS
+ Chifeng, Inner Mongolia, China
+ 
+@SITE
+ Wengniuteqi
+ 
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 N140 0%mulch row=60        1  1  0  1  1  4  2  0  0  1  0  1  1
+ 2 1 1 0 N140 50%mulch   row=60     1  2  0  1  1  4  2  0  0  1  0  1  1
+ 3 1 1 0 N140 100%mulch   row=60    1  5  0  1  1  4  2  0  0  1  0  1  1
+ 4 1 1 0 N140 0%mulch row=80        1  1  0  1  2  2  2  0  0  1  0  1  1
+ 5 1 1 0 N140 50%mulch   row=80     1  3  0  1  2  2  2  0  0  1  0  1  1
+ 6 1 1 0 N140 100%mulch   row=80    1  6  0  1  2  2  2  0  0  1  0  1  1
+ 7 1 1 0 N140 0%mulch row=100       1  1  0  1  3  3  2  0  0  1  0  1  1
+ 8 1 1 0 N140 50%mulch   row=100    1  4  0  1  3  3  2  0  0  1  0  1  1
+ 9 1 1 0 N140 100%mulch   row=100   1  7  0  1  3  3  2  0  0  1  0  1  1
+
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 MZ IB1501 Xianyu 335
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+ 2 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+ 3 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+ 4 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+ 5 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+ 6 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+ 7 CANM1501 CANM1501   -99   -99 -99     -99   -99 -99   SIL    160  CANM1503   New Field 1
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1              43             119       625              -99   -99   -99   -99   -99   -99   -99
+ 2              43             119       625              -99   -99   -99   -99   -99   -99   -99
+ 3              43             119       625              -99   -99   -99   -99   -99   -99   -99
+ 4              43             119       625              -99   -99   -99   -99   -99   -99   -99
+ 5              43             119       625              -99   -99   -99   -99   -99   -99   -99
+ 6              43             119       625              -99   -99   -99   -99   -99   -99   -99
+ 7              43             119       625              -99   -99   -99   -99   -99   -99   -99
+@L  BDWD  BDHT PMALB
+ 1    
+ 2    30     0   0.2
+ 3    40     0   0.2
+ 4    50     0   0.2
+ 5    60     0   0.3 
+ 6    80     0   0.3 
+ 7   100     0   0.3
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    MZ 15121   500   -99     1     1   -99   -99    .8   -99   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    20  .198    .5   5.4
+ 1    40  .267    .5     5
+ 1    60  .297    .5   3.9
+ 1    80  .302    .5   3.4
+ 1   100  .302    .5   2.9
+ 1   120  .302    .5     2
+ 1   140  .302    .5   1.4
+ 1   160  .302    .5   1.4
+ 
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 15123 15138  8.33  7.58     S     R    60     0     5   -99   -99   -99   -99   -99                        N140-Row space=60 cm                      
+ 2 15123 15138  8.33  7.58     S     R    80     0     5   -99   -99   -99   -99   -99                        N140-Row space=80 cm 
+ 3 15123 15138  8.33  7.58     S     R   100     0     5   -99   -99   -99   -99   -99                        N140-Row space=100 cm 
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME     !row space=70 cm
+ 1     1   -99   -99   -99   -99   -99   -99 Irrigation 1--N0
+@I  IRLN IRSPC IROFS IRDEP
+ 1     1    40     0     0
+@I IDATE  IROP IRVAL IRSTR IRDUR  IRLN
+ 1 15124 IR005 0.383   -99 304.2     1
+ 1 15152 IR005 0.383   -99 182.5     1
+ 1 15179 IR005 0.383   -99 486.7     1
+ 1 15192 IR005 0.383   -99 365.1     1
+ 1 15202 IR005 0.383   -99 231.2     1
+ 1 15218 IR005 0.383   -99 243.4     1
+ 1 15231 IR005 0.383   -99 365.1     1
+ 1 15240 IR005 0.383   -99 121.7     1
+ 1 15254 IR005 0.383   -99 121.7     1
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME     !row space=80 cm
+ 2     1   -99   -99   -99   -99   -99   -99 Irrigation 1--N0
+@I  IRLN IRSPC IROFS IRDEP
+ 2     1    40     0     0
+@I IDATE  IROP IRVAL IRSTR IRDUR  IRLN
+ 2 15124 IR005 0.383   -99 347.7     1
+ 2 15152 IR005 0.383   -99 238.6     1
+ 2 15179 IR005 0.383   -99 556.2     1
+ 2 15192 IR005 0.383   -99 417.2     1
+ 2 15202 IR005 0.383   -99 264.2     1
+ 2 15218 IR005 0.383   -99 278.1     1
+ 2 15231 IR005 0.383   -99 417.2     1
+ 2 15240 IR005 0.383   -99 139.1     1
+ 2 15254 IR005 0.383   -99 139.1     1 
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME     !row space=100 cm
+ 3     1   -99   -99   -99   -99   -99   -99 Irrigation 1--N0
+@I  IRLN IRSPC IROFS IRDEP
+ 3     1    40     0     0
+@I IDATE  IROP IRVAL IRSTR IRDUR  IRLN
+ 3 15124 IR005 0.383   -99 434.6     1
+ 3 15152 IR005 0.383   -99 285.7     1
+ 3 15179 IR005 0.383   -99 695.3     1
+ 3 15192 IR005 0.383   -99 521.5     1
+ 3 15202 IR005 0.383   -99 330.3     1
+ 3 15218 IR005 0.383   -99 347.7     1
+ 3 15231 IR005 0.383   -99 521.5     1
+ 3 15240 IR005 0.383   -99 173.8     1
+ 3 15254 IR005 0.383   -99 173.8     1 
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME     !row space=60 cm
+ 4     1   -99   -99   -99   -99   -99   -99 Irrigation 1--N0
+@I  IRLN IRSPC IROFS IRDEP
+ 4     1    40     0     0
+@I IDATE  IROP IRVAL IRSTR IRDUR  IRLN
+ 4 15124 IR005 0.383   -99 260.7     1
+ 4 15152 IR005 0.383   -99 156.4     1
+ 4 15179 IR005 0.383   -99 417.2     1
+ 4 15192 IR005 0.383   -99 312.9     1
+ 4 15202 IR005 0.383   -99 213.2     1
+ 4 15218 IR005 0.383   -99 208.6     1
+ 4 15231 IR005 0.383   -99 312.9     1
+ 4 15240 IR005 0.383   -99 104.3     1
+ 4 15254 IR005 0.383   -99 104.3     1 
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 15124 FE018 AP004     5     0     0    68     0     0   -99 N0-K1--N0
+ 1 15124 FE014 AP004     5     0   135     0     0     0   -99 N0-P1--N0
+ 1 15179 FE016 AP005     0     0     0    40     0     0   -99 N0-K2--N0
+ 1 15192 FE016 AP005     0     0     0    27     0     0   -99 N0-K3--N0
+ 2 15124 FE014 AP004     5     0    68     0     0     0   -99 N140-P1--N140
+ 2 15124 FE005 AP004     5    28     0     0     0     0   -99 N140-N1--N140
+ 2 15124 FE018 AP004     5     0     0    68     0     0   -99 N140-K1--N140
+ 2 15179 FE005 AP005     0    26     0     0     0     0   -99 N140-N2--N140
+ 2 15179 FE007 AP005     0     2    20     0     0     0   -99 N140-P2--N140
+ 2 15179 FE016 AP005     0     0     0    40     0     0   -99 N140-K2--N140
+ 2 15192 FE005 AP005     0    33     0     0     0     0   -99 N140-N3--N140
+ 2 15192 FE007 AP005     0     2    20     0     0     0   -99 N140-P3--N140
+ 2 15192 FE016 AP005     0     0     0    27     0     0   -99 N140-K3--N140
+ 2 15218 FE007 AP005     0     3    27     0     0     0   -99 N140-P4--N140
+ 2 15218 FE005 AP005     0    18     0     0     0     0   -99 N140-N4--N140
+ 2 15231 FE005 AP005     0    21     0     0     0     0   -99 N140-N5--N140
+ 2 15254 FE005 AP005     0     7     0     0     0     0   -99 N140-N6--N140
+ 3 15124 FE018 AP004     5     0     0    68     0     0   -99 N190-K1--N190
+ 3 15124 FE014 AP004     5     0    68     0     0     0   -99 N190-P1--N190
+ 3 15124 FE005 AP004     5    38     0     0     0     0   -99 N190-N1--N190
+ 3 15179 FE016 AP005     0     0     0    40     0     0   -99 N190-K2--N190
+ 3 15179 FE007 AP005     0     2    20     0     0     0   -99 N190-P2--N190
+ 3 15179 FE005 AP005     0    34     0     0     0     0   -99 N190-N2--N190
+ 3 15192 FE007 AP005     0     2    20     0     0     0   -99 N190-P3--N190
+ 3 15192 FE005 AP005     0    46     0     0     0     0   -99 N190-N3--N190
+ 3 15192 FE016 AP005     0     0     0    27     0     0   -99 N190-K3--N190
+ 3 15218 FE007 AP005     0     3    27     0     0     0   -99 N190-P4--N190
+ 3 15218 FE005 AP005     0    26     0     0     0     0   -99 N190-N4--N190
+ 3 15231 FE005 AP005     0    29     0     0     0     0   -99 N190-N5--N190
+ 3 15254 FE005 AP005     0    10     0     0     0     0   -99 N190-N6--N190
+ 4 15124 FE018 AP004     5     0     0    68     0     0   -99 N240-K1--N240
+ 4 15124 FE014 AP004     5     0    68     0     0     0   -99 N240-P1--N240
+ 4 15124 FE005 AP004     5    48     0     0     0     0   -99 N240-N1--N240
+ 4 15179 FE016 AP005     0     0     0    40     0     0   -99 N240-K2--N240
+ 4 15179 FE007 AP005     0     2    20     0     0     0   -99 N240-P2--N240
+ 4 15179 FE005 AP005     0    46     0     0     0     0   -99 N240-N2--N240
+ 4 15192 FE016 AP005     0     0     0    27     0     0   -99 N240-K3--N240
+ 4 15192 FE007 AP005     0     2    20     0     0     0   -99 N240-P3--N240
+ 4 15192 FE005 AP005     0    58     0     0     0     0   -99 N240-N3--N240
+ 4 15218 FE007 AP005     0     3    27     0     0     0   -99 N240-P4--N240
+ 4 15218 FE005 AP005     0    33     0     0     0     0   -99 N240-N4--N240
+ 4 15231 FE005 AP005     0    36     0     0     0     0   -99 N240-N5--N240
+ 4 15254 FE005 AP005     0    12     0     0     0     0   -99 N240-N6--N240
+ 5 15124 FE005 AP004     5    58     0     0     0     0   -99 N290-N1--N290
+ 5 15124 FE018 AP004     5     0     0    68     0     0   -99 N290-K1--N290
+ 5 15124 FE014 AP004     5     0    68     0     0     0   -99 N290-P1--N290
+ 5 15179 FE016 AP005     0     0     0    40     0     0   -99 N290-K2--N290
+ 5 15179 FE007 AP005     0     2    20     0     0     0   -99 N290-P2--N290
+ 5 15179 FE005 AP005     0    54     0     0     0     0   -99 N290-N2--N290
+ 5 15192 FE016 AP005     0     0     0    27     0     0   -99 N290-K3--N290
+ 5 15192 FE007 AP005     0     2    20     0     0     0   -99 N290-P3--N290
+ 5 15192 FE005 AP005     0    71     0     0     0     0   -99 N290-N3--N290
+ 5 15218 FE005 AP005     0    41     0     0     0     0   -99 N290-N4--N290
+ 5 15218 FE007 AP005     0     3    27     0     0     0   -99 N290-P4--N290
+ 5 15231 FE005 AP005     0    44     0     0     0     0   -99 N290-N5--N290
+ 5 15254 FE005 AP005     0    15     0     0     0     0   -99 N290-N6--N290
+ 6 15124 FE005 AP004     5    68     0     0     0     0   -99 N340-N1--N340
+ 6 15124 FE014 AP004     5     0    68     0     0     0   -99 N340-P1--N340
+ 6 15124 FE018 AP004     5     0     0    68     0     0   -99 N340-K1--N340
+ 6 15179 FE016 AP005     0     0     0    40     0     0   -99 N340-K2--N340
+ 6 15179 FE007 AP005     0     2    20     0     0     0   -99 N340-P2--N340
+ 6 15179 FE005 AP005     0    66     0     0     0     0   -99 N340-N2--N340
+ 6 15192 FE016 AP005     0     0     0    27     0     0   -99 N340-K3--N340
+ 6 15192 FE007 AP005     0     2    20     0     0     0   -99 N340-P3--N340
+ 6 15192 FE005 AP005     0    83     0     0     0     0   -99 N340-N3--N340
+ 6 15218 FE005 AP005     0    48     0     0     0     0   -99 N340-N4--N340
+ 6 15218 FE007 AP005     0     3    27     0     0     0   -99 N340-P4--N340
+ 6 15231 FE005 AP005     0    51     0     0     0     0   -99 N340-N5--N340
+ 6 15254 FE005 AP005     0    17     0     0     0     0   -99 N340-N6--N340
+
+
+
+
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 15123 TI003    20 -99
+
+
+
+
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 15275   -99   -99   -99   -99   -99 N0						  
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 15121  2150 DEFAULT SIMULATION CONTRL 
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     G     1     G     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          82050 82064    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10  1.00
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 83057   100     0
+ 
+
+
+
+ 

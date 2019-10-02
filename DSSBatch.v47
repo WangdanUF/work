@@ -1,0 +1,48 @@
+$BATCH(MAIZE)
+!
+! Directory    : C:\DSSAT47\Maize
+! Command Line : C:\DSSAT47\DSCSM047.EXE MZCER047 B DSSBatch.v47
+! Crop         : Maize           
+! Experiment   : CAIM1501.MZX
+! ExpNo        : 1
+! Debug        : C:\DSSAT47\DSCSM047.EXE MZCER047 " B DSSBatch.v47"
+!
+@FILEX                                                                                        TRTNO     RP     SQ     OP     CO
+CANM1501.MZX                                                                                      1      1      0      1      0
+CANM1501.MZX                                                                                      2      1      0      1      0
+CANM1501.MZX                                                                                      3      1      0      1      0
+CANM1501.MZX                                                                                      4      1      0      1      0
+CANM1501.MZX                                                                                      5      1      0      1      0
+CANM1501.MZX                                                                                      6      1      0      1      0
+CANM1501.MZX                                                                                      7      1      0      1      0
+CANM1501.MZX                                                                                      8      1      0      1      0
+CANM1501.MZX                                                                                      9      1      0      1      0
+CANM1501.MZX                                                                                     10      1      0      1      0
+CANM1501.MZX                                                                                     11      1      0      1      0
+CANM1501.MZX                                                                                     12      1      0      1      0
+CANM1501.MZX                                                                                     13      1      0      1      0
+CANM1501.MZX                                                                                     14      1      0      1      0
+CANM1501.MZX                                                                                     15      1      0      1      0
+CANM1501.MZX                                                                                     16      1      0      1      0
+CANM1501.MZX                                                                                     17      1      0      1      0
+CANM1501.MZX                                                                                     18      1      0      1      0
+CANM1502.MZX                                                                                      1      1      0      1      0
+
+!CANM1601.MZX                                                                                      1      1      0      1      0
+!CANM1601.MZX                                                                                      2      1      0      1      0
+!CANM1601.MZX                                                                                      3      1      0      1      0
+!CANM1601.MZX                                                                                      4      1      0      1      0
+!CANM1601.MZX                                                                                      5      1      0      1      0
+!CANM1601.MZX                                                                                      6      1      0      1      0
+!CANM1601.MZX                                                                                      7      1      0      1      0
+!CANM1601.MZX                                                                                      8      1      0      1      0
+!CANM1601.MZX                                                                                      9      1      0      1      0
+!CANM1601.MZX                                                                                     10      1      0      1      0
+!CANM1601.MZX                                                                                     11      1      0      1      0
+!CANM1601.MZX                                                                                     12      1      0      1      0
+!CANM1601.MZX                                                                                     13      1      0      1      0
+!CANM1601.MZX                                                                                     14      1      0      1      0
+!CANM1601.MZX                                                                                     15      1      0      1      0
+!CANM1601.MZX                                                                                     16      1      0      1      0
+!CANM1601.MZX                                                                                     17      1      0      1      0
+!CANM1601.MZX                                                                                     18      1      0      1      0
